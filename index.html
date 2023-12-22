@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1821534ffd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/ibtlogo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Ibtesham Akhtar</span>  <br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- .................................................About................................ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <!-- column 1 -->
+                <div class="about-col-1">
+                    <img src="images/IbtUser.png">
+
+                </div>
+
+                <!-- !-- column 2--> 
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem commodi rerum iste, vitae nam, nostrum pariatur <br>
+                    tempore sequi ad aliquid unde minus, qui sapiente quam itaque beatae cum. Exercitationem, consequatur!</p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+
+
+
+                    <!-- .............................Skills................................. -->
+
+                    <div class="tab-contens active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web App Developent</li>
+                            <li><span>App Developent</span><br>Building Android/ios App</li>
+    
+                        </ul>
+
+
+                    </div>
+
+                    <!-- ...................................Experience................................ -->
+                    <div class="tab-contens" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Frontend Developer at <a href="https://flerid.com/">Flerid</a> </li>
+                            <li><span>2023 - 2024</span><br>Team Lead at Flerid</li>
+                            <li><span>2023 - 2024</span><br>UI/UX Design at Flerid</li>
+                            
+    
+                        </ul>
+
+
+                    </div>
+                     
+                    <!-- .............................Education.................... -->
+                    <div class="tab-contens" id="education">
+                        <ul>
+                            <li><span>2024</span><br>BCA From USTM Meghalaya</li>
+                            <li><span>2023 - 2024</span><br>Intership at Assam Technology</li>
+                            
+                            
+    
+                        </ul>
+
+
+                    </div>
+                    
+                   
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ...............................................Services.................................................... -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>sdf f sdf sd fsd f sdf sdf sdd fsd fsd fsd f sdf sdf sd<br>
+                    sdfsdfsdfsdfsd sdf sdf sdf </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    
+                    <i class="fa-brands fa-webflow"></i>
+                    <h2>Web Developent</h2>
+                    <p>sdf f sdf sd fsd f sdf sdf sdd fsd fsd fsd f sdf sdf sd<br>
+                    sdfsdfsdfsdfsd sdf sdf sdf </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Software Developent</h2>
+                    <p>sdf f sdf sd fsd f sdf sdf sdd fsd fsd fsd f sdf sdf sd<br>
+                    sdfsdfsdfsdfsd sdf sdf sdf </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Developent</h2>
+                    <p>sdf f sdf sd fsd f sdf sdf sdd fsd fsd fsd f sdf sdf sd<br>
+                    sdfsdfsdfsdfsd sdf sdf sdf </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
